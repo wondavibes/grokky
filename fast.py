@@ -12,7 +12,7 @@ class Item(BaseModel):
 
 @app.get("/")
 def root():
-    return {"message": "Hello, World!"}
+    return {"message": "Hello, Worrld!"}
 
 
 @app.post("/items/")
