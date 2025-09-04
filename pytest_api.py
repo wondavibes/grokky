@@ -5,6 +5,8 @@ data = {
     "username": "jude",
     "name": "Jude",
     "age": 30,
+    "title": "Mr",
+    "occupation": "Engineer",
     "email": "jude144@gmail.com"
 }
 response = requests.post(url, json=data)
