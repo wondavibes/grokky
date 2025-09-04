@@ -9,7 +9,7 @@ def explore_dt():
     print("Today's date:", today)
 
     # Create a specific date
-    specific_date = datetime.date(2025, 12, 29)
+    specific_date = datetime.date(2025, 12, 31)
     print("Specific date:", specific_date)
 
     # Calculate the difference between two dates
